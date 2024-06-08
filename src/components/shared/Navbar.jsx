@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { HiOutlineBars3 } from "react-icons/hi2";
+import "./Navbar.css";
 const Navbar = ({ showDropdown, setShowDropdown }) => {
 
     const content = <>
@@ -22,7 +23,7 @@ const Navbar = ({ showDropdown, setShowDropdown }) => {
     </>
     return (
         <div>
-            <nav className="bg-[#1A0B2E] flex justify-between items-center py-3 px-6 md:px-16 sticky top-0">
+            <nav className="bg-[#1A0B2E] flex justify-between items-center py-3 px-6 md:px-16 sticky top-0 home-element">
                 <div className="logo">
                     <h1 className="text-2xl font-bold bg-clip-text text-fill-transparent bg-gradient-to-r from-purple-600 to-blue-500">TANVIR ALAM</h1>
                 </div>
