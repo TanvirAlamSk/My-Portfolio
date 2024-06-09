@@ -3,7 +3,7 @@ const ContactMe = () => {
         <div className="common-style mt-24">
             <h2 className="text-4xl font-semibold mt-10 mb-4 text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-[#3BF686] to-[#4CA9FF]">Get in Touch</h2>
             <div>
-                <div className="min-h-screen bg-base-200">
+                <div className="py-8 bg-base-200 shadow-lg">
                     <div className="flex-col lg:flex-row-reverse ">
                         <div className="md:w-1/2 mx-auto shadow-2xl bg-base-100">
                             <form className="w-full md:w-2/3 mx-auto">
@@ -35,7 +35,7 @@ const ContactMe = () => {
                                     <br></br>
                                     <textarea type="password" placeholder="Message" className=" w-full h-32 rounded bg-none ps-2 pt-2" required />
                                 </div>
-                                <div className="form-control mt-6 text-center">
+                                <div className="form-control mt-6 text-center pb-4">
                                     <button className='px-8 py-2 rounded-3xl font-semibold bg-gradient-to-r from-[#13ADC7] to-[#945DD6]'>Send  Message</button>
                                 </div>
                             </form>

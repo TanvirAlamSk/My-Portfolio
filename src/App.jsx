@@ -5,6 +5,7 @@ import Bannar from './components/Home/Bannar'
 import ContactMe from './components/Home/ContactMe'
 import Projects from './components/Home/Projects'
 import Skill from './components/Home/Skill'
+import Footer from './components/shared/Footer'
 import Home from './pages/Home'
 
 
@@ -18,6 +19,7 @@ function App() {
       <Skill></Skill>
       <Projects></Projects>
       <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   )
 }
