@@ -1,3 +1,4 @@
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About1 = () => {
     return (
@@ -37,6 +38,11 @@ const About1 = () => {
                     </p> */}
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center items-center gap-5 mt-8  md:w-1/6 h-16 mx-auto rounded-md">
+                <FaGithub className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-600 to-blue-500"></FaGithub>
+                <FaLinkedin className="w-8 h-8 bg-blue-500"></FaLinkedin>
+                <FaFacebook className="w-8 h-8 rounded-full bg-blue-500"></FaFacebook >
             </div>
             <div className=" my-10 common-style border-2 border-sky-300 rounded p-5">
                 <h3 className="text-xl font-bold text-center text-[#3BF686]">Education</h3>
