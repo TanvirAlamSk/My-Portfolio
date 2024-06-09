@@ -2,3 +2,10 @@
      padding-left: 64px;
      padding-right: 64px;
  }
+
+ @media only screen and (max-width: 600px) {
+     .common-style {
+         padding-left: 24px;
+         padding-right: 24px;
+     }
+ }

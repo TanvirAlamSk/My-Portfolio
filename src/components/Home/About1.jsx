@@ -1,9 +1,9 @@
 
 const About1 = () => {
     return (
-        <div>
-            <h2 className="text-4xl font-semibold my-10 text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-sky-500 to-indigo-500">About Me</h2>
-            <div className=" flex justify-between items-center common-style ">
+        <div className="common-style">
+            <h2 className="text-4xl font-semibold my-10 text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-[#3BF686] to-[#4CA9FF]">About Me</h2>
+            <div className=" flex justify-between items-center  ">
                 <div className="w-1/2">
                     <div className="flex w-full font-semibold">
                         <img src="https://i.ibb.co/ByZrcBf/photo-2024-06-08-19-57-20.jpg"
@@ -36,9 +36,9 @@ const About1 = () => {
                     </div>
                 </div>
             </div>
-            <div className=" my-6 common-style">
-                <h3 className="text-xl font-bold text-center">Education</h3>
-                <div className=" mt-5 font-semibold flex">
+            <div className=" my-6 common-style border-2 rounded p-5">
+                <h3 className="text-xl font-bold text-center text-[#3BF686]">Education</h3>
+                <div className="mt-5 font-semibold flex">
                     <div className="w-1/2">
                         <h6 className="">Bachelor of Science in Computer Science And Engineering</h6>
                         <p className="">Daffodil International University</p>
