@@ -1,8 +1,9 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const About1 = () => {
     return (
-        <div className="common-style">
+        <div className="common-style" id="about">
             <h2 className="text-4xl font-semibold my-10 text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-[#3BF686] to-[#4CA9FF]">About Me</h2>
             <div className="flex flex-col-reverse md:flex-row justify-between items-center  ">
                 <div className="w-full md:w-1/2">
@@ -40,9 +41,15 @@ const About1 = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center gap-5 mt-8  md:w-1/6 h-16 mx-auto rounded-md">
-                <FaGithub className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-600 to-blue-500"></FaGithub>
-                <FaLinkedin className="w-8 h-8 bg-blue-500"></FaLinkedin>
-                <FaFacebook className="w-8 h-8 rounded-full bg-blue-500"></FaFacebook >
+                <Link to="https://github.com/TanvirAlamSk" target="_blank">
+                    <FaGithub className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-600 to-blue-500"></FaGithub>
+                </Link>
+                <Link to="https://www.linkedin.com/in/tanvir-alam-55b188264/" target="_blank">
+                    <FaLinkedin className="w-8 h-8 bg-blue-500"></FaLinkedin>
+                </Link>
+                <Link to="https://www.facebook.com/tanvir.alam.7524879" target="_blank">
+                    <FaFacebook className="w-8 h-8 rounded-full bg-blue-500"></FaFacebook >
+                </Link>
             </div>
             <div className=" my-10 common-style border-2 border-sky-300 rounded p-5">
                 <h3 className="text-xl font-bold text-center text-[#3BF686]">Education</h3>

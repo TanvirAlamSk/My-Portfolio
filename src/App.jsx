@@ -1,25 +1,12 @@
+import { RouterProvider } from 'react-router-dom'
 import './App.css'
-// import About from './components/Home/About'
-import About1 from './components/Home/About1'
-import Bannar from './components/Home/Bannar'
-import ContactMe from './components/Home/ContactMe'
-import Projects from './components/Home/Projects'
-import Skill from './components/Home/Skill'
-import Footer from './components/shared/Footer'
-import Home from './pages/Home'
-
+import { router } from './router/router'
 
 function App() {
 
   return (
     <div className='bg-[#11071F] min-h-screen text-white'>
-      <Home></Home>
-      <Bannar></Bannar>
-      <About1></About1>
-      <Skill></Skill>
-      <Projects></Projects>
-      <ContactMe></ContactMe>
-      <Footer></Footer>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   )
 }

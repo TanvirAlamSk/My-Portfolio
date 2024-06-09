@@ -5,7 +5,7 @@ import './Projects.css'
 
 const Projects = () => {
     return (
-        <div className="common-style">
+        <div className="common-style" id='projects'>
             <h2 className="text-4xl font-semibold my-10 text-center bg-clip-text text-fill-transparent bg-gradient-to-r from-[#3BF686] to-[#4CA9FF]">My Projects</h2>
             <div className="md:mx-10">
                 <div className='flex flex-col md:flex-row justify-between gap-8 mb-20'>

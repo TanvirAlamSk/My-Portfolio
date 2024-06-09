@@ -3,7 +3,7 @@ import { TbPointFilled } from "react-icons/tb";
 
 const Skill = () => {
     return (
-        <div className="py-10 common-style ">
+        <div className="py-10 common-style" id="skill">
             <h1 className="text-3xl font-bold text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] mt-8">Skills</h1>
 
             <div className="w-full">

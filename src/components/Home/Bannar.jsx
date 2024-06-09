@@ -8,7 +8,7 @@ const Bannar = () => {
     }
 
     return (
-        <div className="flex flex-col md:flex-row md:justify-around items-center common-style my-12 py-8">
+        <div className="flex flex-col md:flex-row md:justify-around items-center common-style my-12 py-8 " id='banner'>
             <div className='w-full md:w-6/12 md:ps-20'>
                 <p className="text-base text-yellow-200">Hi,</p>
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold my-2">I am <span className='text-[#7127BA]'>Tanvir Alam</span></h1>

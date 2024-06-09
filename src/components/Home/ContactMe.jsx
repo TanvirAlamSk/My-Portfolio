@@ -1,6 +1,6 @@
 const ContactMe = () => {
     return (
-        <div className="common-style mt-24">
+        <div className="common-style mt-24" id="contact">
             <h2 className="text-4xl font-semibold mt-10 mb-4 text-center bg-clip-text text-fill-transparent  bg-gradient-to-r from-[#3BF686] to-[#4CA9FF]">Get in Touch</h2>
             <div>
                 <div className="py-8 bg-base-200 shadow-lg">
