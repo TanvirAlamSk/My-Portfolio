@@ -22,8 +22,8 @@ const Navbar = ({ showDropdown, setShowDropdown }) => {
         </li>
     </>
     return (
-        <div>
-            <nav className="bg-[#1A0B2E] flex justify-between items-center py-3 px-6 md:px-16 sticky top-0 common-style">
+        <div className="fixed top-0 w-full pb-0 mb-0">
+            <nav className="bg-[#1A0B2E] flex justify-between items-center py-3 px-6 md:px-16 common-style">
                 <div className="logo">
                     <h1 className="text-2xl font-bold bg-clip-text text-fill-transparent bg-gradient-to-r from-purple-600 to-blue-500">TANVIR ALAM</h1>
                 </div>

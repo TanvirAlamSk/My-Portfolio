@@ -38,7 +38,7 @@ const About1 = () => {
                     </div>
                 </div>
             </div>
-            <div className=" my-6 common-style border-2 rounded p-5">
+            <div className=" my-10 common-style border-2 border-sky-300 rounded p-5">
                 <h3 className="text-xl font-bold text-center text-[#3BF686]">Education</h3>
                 <div className="mt-5 font-semibold flex flex-col md:flex-row">
                     <div className="w-full md:w-1/2">
