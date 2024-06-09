@@ -29,7 +29,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col md:flex-row-reverse  justify-between md:gap-8 mb-20'>
+                <div className='flex flex-col md:flex-row-reverse  justify-between gap-8 mb-20'>
                     <div className='w-full md:w-1/2 h-80 overflow-auto scrollSection'>
                         <img src={project1} className='w-11/12 rounded-lg' alt=""></img>
                     </div>
