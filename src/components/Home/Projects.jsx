@@ -1,5 +1,5 @@
 import project1 from '../../assets/project/progect1.jpg';
-import project2 from '../../assets/project/project2.jpg';
+// import project2 from '../../assets/project/project2.jpg';
 import project3 from '../../assets/project/project3.jpg';
 import { FaGithub } from "react-icons/fa";
 import './Projects.css'
@@ -43,7 +43,9 @@ const Projects = () => {
                     <div className='w-full md:w-1/2 md:ps-4 flex flex-col justify-between'>
                         <div>
                             <h3 className='text-3xl mb-2'>LexisArt</h3>
-                            <p className='text-lg md:float-end'>&quot;LexisArt&quot;  From the moment you land on the homepage, you&apos;re greeted by a warm and inviting atmosphere.  A large banner slideshow transitions smoothly through images of gorgeously designed living rooms bathed in soft natural light, calming bedrooms perfect for unwinding, and even a beautifully organized home office that sparks inspiration.</p>
+                            <p className='text-lg md:float-end'>&quot;LexisArt&quot;  This site targets those who crave a personalized touch in their home design.
+
+                                Upon landing, you&apos;re met with a bright and interactive interface. A quiz pops up, asking questions about your design style (modern, minimalist, bohemian, etc.), budget, and the room you want to tackle. Based on your answers, the site curates a mood board filled with inspiring color palettes, furniture suggestions, and decor ideas.</p>
                         </div>
 
                         <br></br>
