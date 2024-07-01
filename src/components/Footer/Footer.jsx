@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="common-style py-10 bg-[#1C1C40]">
+        <div className="common-style py-10 footer-section">
 
             <div className="flex justify-center gap-5 mt-8">
                 <a to="https://github.com/TanvirAlamSk" target="_blank">

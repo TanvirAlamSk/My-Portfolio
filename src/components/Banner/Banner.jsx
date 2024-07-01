@@ -10,7 +10,7 @@ const Banner = () => {
                 <h1 className="text-2xl md:text-3xl lg:text-7xl font-normal my-2 text-white">Hi, I am <span className=''>Tanvir Alam</span></h1>
                 <h6></h6>
                 <div className='hidden md:block bg-clip-text text-fill-transparent bg-gradient-to-r from-blue-500 to-purple-600 lg:text-xl'>
-                    <TypeAnimation className=' font-medium md:h-auto '
+                    <TypeAnimation className='hidden md:h-auto '
                         sequence={[
                             'I Am A Programmer',
                             1500,
@@ -27,7 +27,7 @@ const Banner = () => {
                     />
                 </div>
 
-                <div className='block md:hidden h-10 text-5xl'>
+                <div className='block md:hidden h-10 text-5xl bg-clip-text text-fill-transparent bg-gradient-to-r from-blue-500 to-purple-600'>
                     <TypeAnimation className=''
                         sequence={[
                             'I Am A Programmer',
