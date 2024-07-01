@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,7 +8,6 @@ export default {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
     function ({ addUtilities }) {
       addUtilities({
         '.bg-clip-text': {
@@ -23,3 +21,4 @@ export default {
     }
   ],
 }
+
